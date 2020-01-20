@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@Page.Title HELLO</title>
+    @RenderSection("head", required: false)
+</head>
+<body>
+    @RenderSection("banner")
+    @RenderSection("newyear")
+    @RenderBody()
+    <hr style="line-height:5px" />
+    @RenderSection("footer", required: false)
+</body>
+</html>
